@@ -62,11 +62,11 @@ export default function Contact() {
 
             <div className="mt-8 space-y-4 border-t border-slate-200 pt-6">
               <a
-                href="mailto:contacto@beattle.com"
+                href="mailto:contacto@beattlesolution.com"
                 className="flex items-center gap-3 text-sm text-slate-600 transition-colors hover:text-brand-600"
               >
                 <Icon name="Mail" className="h-5 w-5 text-brand-600" />
-                contacto@beattle.com
+                contacto@beattlesolution.com
               </a>
               <a
                 href="https://wa.me/5210000000000"
@@ -205,8 +205,9 @@ export default function Contact() {
                 </Button>
 
                 <p className="mt-4 text-xs text-slate-500">
-                  Al enviar este formulario, aceptas que Beattle se comunique contigo
-                  para coordinar la demostración. No compartimos tus datos con terceros.
+                  Al enviar este formulario, aceptas que Beattle Solution se comunique
+                  contigo para coordinar la demostración. No compartimos tus datos con
+                  terceros.
                 </p>
               </>
             )}

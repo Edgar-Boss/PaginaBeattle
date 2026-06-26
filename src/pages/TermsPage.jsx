@@ -18,6 +18,10 @@ export default function TermsPage() {
             {COMPANY.legalName} bajo el nombre comercial {COMPANY.brand}.
           </p>
           <p>
+            {COMPANY.brand} es el nombre comercial utilizado por {COMPANY.legalName}{' '}
+            para la prestación de estos servicios.
+          </p>
+          <p>
             El uso del sitio implica la aceptación de estos términos y condiciones.
           </p>
 

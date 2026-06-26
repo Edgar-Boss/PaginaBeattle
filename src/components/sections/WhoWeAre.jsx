@@ -15,14 +15,13 @@ export default function WhoWeAre() {
 
         <div className="space-y-6 text-left sm:text-center">
           <p className="text-base leading-relaxed text-slate-600">
-            Nuestra misión es ayudar a pequeñas y medianas empresas a digitalizar
-            y automatizar sus procesos mediante soluciones tecnológicas modernas,
-            integración con WhatsApp Business e inteligencia artificial.
+            {COMPANY.brand} es una plataforma SaaS desarrollada y operada por{' '}
+            {COMPANY.legalName}.
           </p>
           <p className="text-base leading-relaxed text-slate-600">
-            Creamos herramientas que simplifican la gestión de citas, la atención
-            al cliente y otros procesos empresariales para impulsar el crecimiento
-            de nuestros clientes.
+            Ayudamos a pequeñas y medianas empresas a automatizar procesos,
+            gestionar citas, mejorar la atención al cliente e integrar soluciones
+            digitales como WhatsApp Business e inteligencia artificial.
           </p>
         </div>
 

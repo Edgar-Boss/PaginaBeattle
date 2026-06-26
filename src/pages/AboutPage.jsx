@@ -48,8 +48,8 @@ export default function AboutPage() {
             inteligencia artificial para pequeñas y medianas empresas.
           </p>
           <p>
-            El sitio web, la plataforma y todos los servicios ofrecidos son
-            desarrollados y operados por {COMPANY.legalName}.
+            El sitio web, la plataforma y los servicios ofrecidos por{' '}
+            {COMPANY.brand} son desarrollados y operados por {COMPANY.legalName}.
           </p>
           <p>
             Nuestro objetivo es ayudar a las empresas a digitalizar sus procesos

@@ -14,19 +14,53 @@ export default function Footer() {
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600">
                 <span className="text-sm font-bold text-white">B</span>
               </div>
-              <span className="text-xl font-bold text-white">Beattle</span>
+              <span className="whitespace-nowrap text-xl font-bold text-white">
+                Beattle Solution
+              </span>
             </Link>
+            <p className="mt-4 text-sm leading-relaxed">
+              Plataforma SaaS para la automatización de procesos empresariales.
+            </p>
+
             <h3 className="mt-6 text-sm font-semibold uppercase tracking-wider text-white">
               Información de la empresa
             </h3>
-            <p className="mt-4 text-sm font-semibold text-slate-300">
-              {COMPANY.brand}
-            </p>
-            <p className="mt-2 text-sm leading-relaxed">
-              Plataforma SaaS para la automatización de procesos empresariales.
-            </p>
-            <p className="mt-2 text-sm leading-relaxed">
-              Desarrollado y operado por {COMPANY.legalName}.
+            <dl className="mt-4 space-y-3 text-sm leading-relaxed">
+              <div>
+                <dt className="text-slate-500">Nombre comercial</dt>
+                <dd className="text-slate-300">{COMPANY.brand}</dd>
+              </div>
+              <div>
+                <dt className="text-slate-500">Operado por</dt>
+                <dd className="text-slate-300">{COMPANY.legalName}</dd>
+              </div>
+              <div>
+                <dt className="text-slate-500">Sitio web</dt>
+                <dd>
+                  <a
+                    href={COMPANY.domain}
+                    className="text-slate-300 transition-colors hover:text-white"
+                  >
+                    {COMPANY.domain}
+                  </a>
+                </dd>
+              </div>
+              <div>
+                <dt className="text-slate-500">Correo</dt>
+                <dd>
+                  <a
+                    href={`mailto:${COMPANY.email}`}
+                    className="text-slate-300 transition-colors hover:text-white"
+                  >
+                    {COMPANY.email}
+                  </a>
+                </dd>
+              </div>
+            </dl>
+
+            <p className="mt-4 text-sm leading-relaxed">
+              {COMPANY.brand} es el nombre comercial utilizado por{' '}
+              {COMPANY.legalName} para la prestación de estos servicios.
             </p>
           </div>
 

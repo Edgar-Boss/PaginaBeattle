@@ -37,8 +37,8 @@ export default function Header() {
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600 shadow-lg shadow-brand-600/30 transition-transform group-hover:scale-105">
             <span className="text-sm font-bold text-white">B</span>
           </div>
-          <span className="text-xl font-bold tracking-tight text-slate-900">
-            Beattle
+          <span className="whitespace-nowrap text-xl font-bold tracking-tight text-slate-900">
+            Beattle Solution
           </span>
         </Link>
 

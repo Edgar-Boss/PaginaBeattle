@@ -9,10 +9,10 @@
   </defs>
   <rect x="80" y="80" width="64" height="64" rx="16" fill="#2563EB"/>
   <text x="112" y="125" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="32" font-weight="700">B</text>
-  <text x="168" y="125" fill="white" font-family="Inter, sans-serif" font-size="48" font-weight="700">Beattle</text>
-  <text x="80" y="220" fill="white" font-family="Inter, sans-serif" font-size="52" font-weight="800">AutomatizaciÛn, Software e IA</text>
+  <text x="168" y="125" fill="white" font-family="Inter, sans-serif" font-size="48" font-weight="700">Beattle Solution</text>
+  <text x="80" y="220" fill="white" font-family="Inter, sans-serif" font-size="52" font-weight="800">Automatizaciùn, Software e IA</text>
   <text x="80" y="290" fill="white" font-family="Inter, sans-serif" font-size="52" font-weight="800">para PyMEs</text>
   <text x="80" y="370" fill="#94A3B8" font-family="Inter, sans-serif" font-size="28">Elimina procesos manuales. Escala tu negocio.</text>
-  <rect x="80" y="430" width="280" height="56" rx="12" fill="#2563EB"/>
-  <text x="220" y="466" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="22" font-weight="600">beattle.com</text>
+  <rect x="80" y="430" width="360" height="56" rx="12" fill="#2563EB"/>
+  <text x="260" y="466" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="22" font-weight="600">beattlesolution.com</text>
 </svg>
