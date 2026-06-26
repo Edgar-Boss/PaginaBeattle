@@ -1,32 +1,22 @@
-import Header from './components/layout/Header'
-import Footer from './components/layout/Footer'
-import Hero from './components/sections/Hero'
-import Problems from './components/sections/Problems'
-import HowWeHelp from './components/sections/HowWeHelp'
-import FeaturedProducts from './components/sections/FeaturedProducts'
-import Benefits from './components/sections/Benefits'
-import About from './components/sections/About'
-import FAQ from './components/sections/FAQ'
-import Contact from './components/sections/Contact'
-import CTA from './components/sections/CTA'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/layout/Layout'
+import Home from './pages/Home'
+import AboutPage from './pages/AboutPage'
+import PrivacyPage from './pages/PrivacyPage'
+import TermsPage from './pages/TermsPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Problems />
-        <HowWeHelp />
-        <FeaturedProducts />
-        <Benefits />
-        <About />
-        <FAQ />
-        <Contact />
-        <CTA />
-      </main>
-      <Footer />
-    </>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPage />} />
+        <Route path="/terms" element={<TermsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Route>
+    </Routes>
   )
 }
 

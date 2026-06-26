@@ -1,10 +1,26 @@
+export const COMPANY = {
+  brand: 'Beattle Solution',
+  legalName: 'Edgar Díaz Ortiz',
+  domain: 'https://www.beattlesolution.com',
+  email: 'contacto@beattlesolution.com',
+  whatsapp: 'https://wa.me/5210000000000',
+  location: 'México · Atención remota en toda LATAM',
+}
+
 export const NAV_LINKS = [
-  { label: 'Problemas', href: '#problemas' },
-  { label: 'Soluciones', href: '#soluciones' },
-  { label: 'Productos', href: '#productos' },
-  { label: 'Nosotros', href: '#nosotros' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contacto', href: '#contacto' },
+  { label: 'Problemas', href: '/#problemas' },
+  { label: 'Soluciones', href: '/#soluciones' },
+  { label: 'Productos', href: '/#productos' },
+  { label: 'Nosotros', href: '/#nosotros' },
+  { label: 'FAQ', href: '/#faq' },
+  { label: 'Contacto', href: '/#contacto' },
+]
+
+export const LEGAL_LINKS = [
+  { label: 'Acerca de', to: '/about' },
+  { label: 'Aviso de Privacidad', to: '/privacy-policy' },
+  { label: 'Términos y Condiciones', to: '/terms' },
+  { label: 'Contacto', to: '/contact' },
 ]
 
 export const PROBLEMS = [

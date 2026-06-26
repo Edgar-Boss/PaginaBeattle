@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import Button from '../ui/Button'
 import Icon from '../ui/Icon'
 import { NAV_LINKS } from '../../data/content'
@@ -32,14 +33,14 @@ export default function Header() {
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
         aria-label="Navegación principal"
       >
-        <a href="#" className="group flex items-center gap-2.5">
+        <Link to="/" className="group flex items-center gap-2.5">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand-600 shadow-lg shadow-brand-600/30 transition-transform group-hover:scale-105">
             <span className="text-sm font-bold text-white">B</span>
           </div>
           <span className="text-xl font-bold tracking-tight text-slate-900">
             Beattle
           </span>
-        </a>
+        </Link>
 
         <div className="hidden items-center gap-1 lg:flex">
           {NAV_LINKS.map((link) => (
@@ -54,7 +55,7 @@ export default function Header() {
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Button href="#contacto" variant="primary" size="sm">
+          <Button href="/#contacto" variant="primary" size="sm">
             Solicitar demostración
           </Button>
         </div>
@@ -84,7 +85,7 @@ export default function Header() {
               </a>
             ))}
             <Button
-              href="#contacto"
+              href="/#contacto"
               variant="primary"
               className="mt-3 w-full"
               onClick={() => setMobileOpen(false)}
